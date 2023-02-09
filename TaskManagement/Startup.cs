@@ -68,6 +68,7 @@ namespace TaskManagement
             services.AddControllers().AddNewtonsoftJson();
          
             services.AddTransient<IAccountService, AccountService>();
+            services.AddTransient<ITask, TaskService>();
 
 
 

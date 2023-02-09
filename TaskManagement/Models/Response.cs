@@ -1,4 +1,4 @@
-﻿namespace TaskManagement.Models
+﻿namespace TaskManagement
 {
     public class Response
     {
@@ -7,5 +7,8 @@
             get;
             set;
         }
+        public string Message { get; set; }
+        public bool status { get; set; }
+        
     }
 }
